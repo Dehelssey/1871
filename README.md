@@ -1,5 +1,5 @@
 # 1871
-1871.studio website / portfolio
+[1871.studio](https://1871.studio/) website / portfolio
 
 My own portfolio made with [Zola](https://github.com/getzola/zola)
 

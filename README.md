@@ -1,7 +1,7 @@
 # 1871
 [1871.studio](https://1871.studio/) website / portfolio
 
-My own portfolio made with [Zola](https://github.com/getzola/zola)
+My own portfolio, for my work as a Product Designer, made with [Zola](https://github.com/getzola/zola)
 
 All the elements of this site (logos, branding, illustrations, graphics and textual content) are under the GPL v3 license, and can therefore be modified, reused and reproduced freely, as long as the final project retains this same license. #Copyleft
 

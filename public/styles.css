@@ -228,6 +228,7 @@ aside.fk-sidebar svg.fk-large {
   position: relative;
   background: linear-gradient(180deg, var(--bg) 77%, transparent 100%);
   padding-bottom: 33%;
+  margin-top: -1rem;
 }
 .fk-container .fk-body h1 {
   margin-bottom: 3rem;
@@ -826,9 +827,9 @@ img.fk-featured {
     flex-direction: column;
   }
   svg.fk-inline {
-    top: 0;
+    top: 0px;
     left: 0;
-    height: 40px;
+    height: 80px;
   }
   .fk-body {
     margin-bottom: 100px;

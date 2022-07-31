@@ -227,6 +227,7 @@ svg.fk-inline {
 aside.fk-sidebar svg.fk-large {
   position: relative;
   background: linear-gradient(180deg, var(--bg) 77%, transparent 100%);
+  padding-bottom: 33%;
 }
 .fk-container .fk-body h1 {
   margin-bottom: 3rem;

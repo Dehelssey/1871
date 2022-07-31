@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <section class="fk-post-intro fk-flex">
+        <img src="{{ page.extra.image }}" loading="lazy">
+        <div class="fk-post-intro">
+            <h1 class="title">
+                {{ page.title }}
+            </h1>
+            <p class="fk-accent">{{ page.date | date(format="%d·%m·%Y") }}</p>
+            {% if page.taxonomies.tags %}
+                {% for tag in page.taxonomies.tags %}
+                <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}" class="fk-pill" >{{ tag }}</a>
+                {% endfor %}
+            {% endif %}
+            {% if page.taxonomies.sujets %}
+                {% for tag in page.taxonomies.sujets %}
+                <a href="{{ get_taxonomy_url(kind="sujets", name=tag) | safe }}" class="fk-pill" >{{ tag }}</a>
+            {% endfor %}
+        {% endif %}               
+        </div>
+    </section>
+    {{ page.content | safe }}
+</article>
+{% endblock content %}

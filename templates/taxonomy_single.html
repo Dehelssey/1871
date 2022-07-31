@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ term.name }}</h1>
+  <section id="archive" class="fk-flex">
+    {% for page in term.pages %}
+    <div class="fk-post">
+      <a href="{{ page.permalink | safe }}">
+        <img class="fk-featured" src="{{ page.extra.image }}" loading="lazy">
+        <div class="fk-content">
+          <h2>{{ page.title }}</h2>
+          <p>{{ page.description }}</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </section>
+{% endblock content %}

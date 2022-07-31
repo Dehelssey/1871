@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title}}
+</h1>
+<section id="archive" class="fk-flex">
+  {% for page in paginator.pages %}
+  <div class="fk-post">
+    <a href="{{ page.permalink | safe }}">
+      <img class="fk-featured" src="{{ page.extra.image }}" loading="lazy">
+      <div class="fk-content">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</section>
+<nav class="fk-pagination">
+  {% if paginator.previous %}
+      <a class="fk-icon-left" href="{{ paginator.previous }}"></a>
+  {% endif %}
+  {% if paginator.next %}
+      <a class="fk-icon-right" href="{{ paginator.next }}"></a>
+  {% endif %}
+</nav>
+{% endblock content %}

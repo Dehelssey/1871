@@ -24,7 +24,7 @@ Nous souhaitons que cette plateforme de microblogging <i>à la Twitter</i> soit 
 
 En plus d’un fil chronologique des gens que vous suivez, vous avez accès à un fil regroupant toutes les personnes de BDX.town ainsi qu’un troisième, regroupant nos “voisins” en ligne.
 
-En effet, Mangane communique avec l'ensemble du <span class="fk-pill">fediverse</span> [<span id="text-note1">⁽¹⁾</span>](#note1) (Federated Universe), fort de 2M+ d’utilisateurs. Nous n’évoluons donc pas en vase clos.
+En effet, Mangane communique avec l'ensemble du <span class="fk-pill">fediverse</span> [<span id="text-note1">⁽¹⁾</span>](#note1) (Federated Universe), fort de 2M+ d’utilisateur·ices. Nous n’évoluons donc pas en vase clos.
 
 ## Annuaire des membres
 
@@ -51,7 +51,7 @@ Le **nombre de publications** est un indicateur (on peut rechercher des gens qui
 
 Idéalement, il faudrait n’afficher que cette fréquence, la plus utile, pour alléger l’interface.
 
-⚠️ **Bémol cependant**&nbsp;: un utilisateur inscrit depuis longtemps qui n’aurait commencé que récemment à publier beaucoup présenterait *une fréquence faussée* le temps que la donnée se stabilise sur la durée.
+⚠️ **Bémol cependant**&nbsp;: un utilisateur·ice inscrit depuis longtemps qui n’aurait commencé que récemment à publier beaucoup présenterait *une fréquence faussée* le temps que la donnée se stabilise sur la durée.
 
 #### Mastodon
 
@@ -81,7 +81,7 @@ Compte-tenu de ces différentes considérations j’ai entamé une phase d’it�
 
 L’interface étant déjà en ligne, et la structure assez simple, j’ai maquetté directement en rendu “final” en modifiant les éléments dans l’inspecteur ou en recréant certains composant sur Xd afin de rapidement me rendre compte de l’efficacité ou non des différentes mises en page.
 
-Par rapport à la carte utilisateur par défaut, j’ai **retiré les données inutiles**, on a donc gardé le nombre de messages et la dernière activité&nbsp;:
+Par rapport à la carte utilisateur·ice par défaut, j’ai **retiré les données inutiles**, on a donc gardé le nombre de messages et la dernière activité&nbsp;:
 
 ![Premier jet](v1.webp)
 
@@ -100,10 +100,10 @@ Une version qui me plaisait bien et que j’aurais probablement proposée mais..
 
 *car il y a un mais.*
 
-![Un utilisateur avec une très courte bio](v3b.webp)
-<br><small>Un utilisateur avec une très courte bio</small>
+![Un utilisateur·ice avec une très courte bio](v3b.webp)
+<br><small>Un utilisateur·ice avec une très courte bio</small>
 
-Le rendu est très vide si l'utilisateur a une mini bio et pire encore s’il n’a aucune bio renseignée.
+Le rendu est très vide si l'utilisateur·ice a une mini bio et pire encore s’il n’a aucune bio renseignée.
 
 
 ➡️ L’hypothèse d’une construction en *masonry* avec des cartes de profils à hauteur variable s’est posée. Cependant pour une meilleure lisibilité nous avons fait le choix de rester sur une grille classique, à hauteur fixe.
@@ -179,7 +179,7 @@ Nous avons ainsi pu décider quelles infos méritaient de figurer et lesquelles 
 
 Dans une volonté de ne pas imposer un *onboarding* trop long, ma proposition s’est arrêté sur **4 étapes**&nbsp;:
 
-1. **Bienvenue** → explications de l’interconnexion entre les instances à la manière des emails + rappel du nom d’utilisateur complet @pseudo@instance
+1. **Bienvenue** → explications de l’interconnexion entre les instances à la manière des emails + rappel du nom d’utilisateur·ice complet @pseudo@instance
 2. **Présentation des timelines** → le fil personnel (les gens suivis), le fil local (”bdx.town” pour les gens de la même instance) et le fil fédéré (”découvrir”, pour les voisins)
 3. **Présentation des options de confidentialité** → définir si le profil publie en public ou en privé, si les gens peuvent s’abonner sans confirmation, si le profil est répertorié sur l’instance et sur les moteurs de recherche.
 4. **Suggestions d'actions à mener** → et rappel du code de conduite.
@@ -196,7 +196,7 @@ Dans une volonté de ne pas imposer un *onboarding* trop long, ma proposition s�
 <a href="https://www.figma.com/proto/lOmoWp7cuw14qYPvZuoCFs/bdx.town---Design?node-id=7%3A1198&viewport=-92%2C262%2C0.16&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A1198" class="fk-button" target="_blank" rel="noopener">Voir la maquette interactive</a>
 
 
-Enfin, en suivant l’exemple de Mastodon depuis 2021, plutôt que d’emmener les utilisateurs sur une timeline vide à leur inscription, nous avons souhaité les diriger vers une liste de profils à suivre (l'[annuaire](#annuaire-des-membres) sur lequel nous avons travaillé en premier).
+Enfin, en suivant l’exemple de Mastodon depuis 2021, plutôt que d’emmener les utilisateur·ices sur une timeline vide à leur inscription, nous avons souhaité les diriger vers une liste de profils à suivre (l'[annuaire](#annuaire-des-membres) sur lequel nous avons travaillé en premier).
 
 <section class="notes">
 

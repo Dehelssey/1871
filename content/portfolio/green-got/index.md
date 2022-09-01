@@ -12,9 +12,9 @@ Dans le cadre d’un recrutement j’ai été amené à proposer ma vision pour 
 
 ## Contexte
 
-Ma mission était de concevoir la partie gestion des limites de plafonds par l’utilisateur.ice de l’appli Green-Got.
+Ma mission était de concevoir la partie gestion des limites de plafonds par l’utilisateur·ice.ice de l’appli Green-Got.
 
-Le but de ce cas pratique est de *proposer une expérience **rapide et simple** pour l’utilisateur.ice* de l’app qui souhaite modifier ses plafonds de retraits et / ou paiements.
+Le but de ce cas pratique est de *proposer une expérience **rapide et simple** pour l’utilisateur·ice.ice* de l’app qui souhaite modifier ses plafonds de retraits et / ou paiements.
 
 ## **Recherches préliminaires**
 
@@ -45,9 +45,9 @@ Je pose mes premiers jets sur papier pour pouvoir rapidement et facilement itér
 ![Itérations sur papier de wireframes](wireframes-papier.webp)
 <br><small>(du coup oui c’est un peu le foutoir)</small>
 
-Je finis par avoir une vision assez claire de ce que je souhaite sur **chacun des écrans que l’utilisateur.ice traversera** pour effectuer l’action de gestion des limites & plafonds.
+Je finis par avoir une vision assez claire de ce que je souhaite sur **chacun des écrans que l’utilisateur·ice.ice traversera** pour effectuer l’action de gestion des limites & plafonds.
 
-## **Parcours utilisateur.ice.**
+## **Parcours utilisateur·ice.ice.**
 
 Ces écrans, parlons-en&nbsp;: je voulais limiter autant que possible le nombre d’interactions nécessaires pour arriver à l’écran souhaité. En optimisant l'agencement de l’information je suis parvenu à un parcours assez succinct&nbsp;: en **3 <span class="fk-pill alt">clics</span>** on est sur l’écran où l’on règle le montant du plafond sélectionné.
 
@@ -65,7 +65,7 @@ Un dernier <span class="fk-pill">clic</span>, **sur le bouton d’édition, ou s
 J’ai opté pour **une triple entrée** quant à la modification de cette valeur&nbsp;:
 
 - Un *range-slider* assez classique et intuitif pour faire rapidement varier le montant.
-- Le label du slider est également éditable **en saisie directe** pour l’utilisateur qui souhaite un contrôle plus précis (guilty)
+- Le label du slider est également éditable **en saisie directe** pour l’utilisateur·ice qui souhaite un contrôle plus précis (guilty)
 - Enfin, lors de ma veille j’avais trouvé une interface présentant des boutons avec **plusieurs montants prédéfinis,** pour offrir une expérience encore plus simple.
 
 Maintenant que ce parcours est balisé, place aux wireframes pour mieux structurer les différents écrans et hiérarchiser les informations qu’on y trouvera.
@@ -74,7 +74,7 @@ Maintenant que ce parcours est balisé, place aux wireframes pour mieux structur
 
 Comme j’avais déjà posé une base assez précise sur papier, la partie wireframes fut relativement rapide. Seul **l’écran de la vue détaillée du compte** fut remanié deux fois avant de revenir au point de départ.
 
-En effet je souhaitais que l’on puisse directement consulter les entrées et sorties d’argent du compte. Cependant, nous avions déjà une vue “mouvements” sur la page d’accueil (qui regroupe l’ensemble des comptes de l’utilisateur.ce). Or il ne me paraissait **pas pertinent ni assez clair** qu’au changement d’onglet on affichait désormais les mouvements d’un seul compte. Visuellement on arrivait dans une nouvelle pièce… avec la moitié des meubles identiques (ou presque) à la précédente.
+En effet je souhaitais que l’on puisse directement consulter les entrées et sorties d’argent du compte. Cependant, nous avions déjà une vue “mouvements” sur la page d’accueil (qui regroupe l’ensemble des comptes de l’utilisateur·ice.ce). Or il ne me paraissait **pas pertinent ni assez clair** qu’au changement d’onglet on affichait désormais les mouvements d’un seul compte. Visuellement on arrivait dans une nouvelle pièce… avec la moitié des meubles identiques (ou presque) à la précédente.
 
 Je suis donc revenu sur ma première ébauche, **plus simple&nbsp;:** une liste des actions communes associées à la gestion du compte. Au niveau de l'intégration, cette solution propose l’avantage de **faciliter l’ajout de nouvelles fonctionnalités** puisqu’elles s’enchaînent simplement. La maquette n’a pas besoin d’être revue et corrigée à chaque nouvelle implémentation.
 
@@ -82,7 +82,7 @@ Je suis donc revenu sur ma première ébauche, **plus simple&nbsp;:** une liste 
 
 **Design graphique.**
 
-Après avoir ajusté les différents éléments que je souhaitais voir sur chacun des écrans rencontrés par l’utilisateur.ice lors de l’action de gestion des plafonds, place à la déco&nbsp;!
+Après avoir ajusté les différents éléments que je souhaitais voir sur chacun des écrans rencontrés par l’utilisateur·ice.ice lors de l’action de gestion des plafonds, place à la déco&nbsp;!
 
 J’ai essayé de coller autant que possible aux mockups présents sur le site de Green-Got, afin d’avoir un ensemble cohérent et élégant, moderne et épuré.
 <div class="fk-flex">
@@ -95,7 +95,7 @@ J’ai essayé de coller autant que possible aux mockups présents sur le site d
 
 Évidemment l’interface se doit d’être agréable à regarder et à utiliser, Mais je connais le piège du design irréaliste (beaucoup de *shots* sur dribbble utilisent les logos des marques pour illustrer les paiements, la faisabilité me paraissait, au mieux, bien trop complexe comparé au gain en qualité d'expérience.)
 
-J’ai opté pour des icônes minimalistes pour catégoriser les différents mouvements d’argent&nbsp;: on a ainsi une interface **moins austère** et *on reste dans le cadre du techniquement réaliste*.(Peut-être faudrait-il varier les teintes des icônes pour faciliter la lecture de la catégorisation pour l’utilisateur.ice)
+J’ai opté pour des icônes minimalistes pour catégoriser les différents mouvements d’argent&nbsp;: on a ainsi une interface **moins austère** et *on reste dans le cadre du techniquement réaliste*.(Peut-être faudrait-il varier les teintes des icônes pour faciliter la lecture de la catégorisation pour l’utilisateur·ice.ice)
 
 <div class="fk-flex">
 
@@ -116,11 +116,11 @@ Plusieurs indices de performances sont envisagés afin d’estimer l’efficacit
 
 - Pourcentage d’actions sans erreur
 - Temps passé pour compléter l’action
-- Pourcentage d’utilisateurs utilisant l’action
-- Fréquence d’utilisation pour les utilisateurs concernés
+- Pourcentage d’utilisateur·ices utilisant l’action
+- Fréquence d’utilisation pour les utilisateur·ices concernés
 - Taux de rebond (retour / annulation avant finalisation)
 
-Idéalement des demandes de feedback pourraient être poussées dans l’app, par exemple lors de la première fois que la solution est utilisée, pour que l’utilisateur.ice note son expérience.
+Idéalement des demandes de feedback pourraient être poussées dans l’app, par exemple lors de la première fois que la solution est utilisée, pour que l’utilisateur·ice.ice note son expérience.
 
 ---
 

@@ -20,7 +20,7 @@ On copie-colle son annonce dans l’outil en ligne et les formulations discrimin
 
 Chaque famille de discrimination (<span class="fk-pill">genre</span>, <span class="fk-pill alt">âge</span>, <span class="fk-pill">apparence</span>…) est divisée en différentes sous-catégories. 
 
-Des fiches pratiques sont alors proposées à l’utilisateur afin de mieux comprendre pourquoi sa formulation n’est pas idéale. *Des formulations alternatives sont également proposées.*
+Des fiches pratiques sont alors proposées à l’utilisateur·ice afin de mieux comprendre pourquoi sa formulation n’est pas idéale. *Des formulations alternatives sont également proposées.*
 
 ## Ma mission
 

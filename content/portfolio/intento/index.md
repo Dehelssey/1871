@@ -23,7 +23,7 @@ Nous en avons profité pour revoir notre copie.
 
 Il a alors été décidé par l’équipe de développement de se baser sur la [libraire Ant](https://ant.design/components/overview/) qui leur donnait accès à un **design system et à des composants React.js** pré-configurés pour faciliter l’implémentation de nouvelles fonctionnalités. 
 
-En amont des premières ébauches, nous avons diffusé un google form pour récolter l’avis de nos utilisateurs sur différentes idées que nous avions. Nous les avons également invités à nous faire part de leurs envies ou besoins pour la nouvelle version de l’outil.
+En amont des premières ébauches, nous avons diffusé un google form pour récolter l’avis de nos utilisateur·ices sur différentes idées que nous avions. Nous les avons également invités à nous faire part de leurs envies ou besoins pour la nouvelle version de l’outil.
 
 
 ✅ Me concernant, il a fallu repenser une partie des différentes vues de l’application, **en particulier l’écran d’accueil.** Il était primordial également d’améliorer la présentation et la hiérarchisation de l’information au sein de l’outil.
@@ -32,11 +32,11 @@ En amont des premières ébauches, nous avons diffusé un google form pour réco
 
 C’est ainsi que la page principale du *dashboard* a été complètement revue pour se concentrer sur **le centre de coaching** par lequel intento communique avec ses clients.
 
-➡️ Les statistiques et métriques qui paraissaient importantes aux yeux de l’équipe marketing n’étaient que **très peu consultées** par les utilisateurs finaux de l’app.
+➡️ Les statistiques et métriques qui paraissaient importantes aux yeux de l’équipe marketing n’étaient que **très peu consultées** par les utilisateur·ices finaux de l’app.
 
 ![Écran d'accueil de la v3 de l'app](accueil-v3.webp)
 
-L’utilisateur y retrouve donc désormais en premier lieu des **indicateurs de performance** <span class="fk-pill" aria-hidden="true">1</span> sur les performances de ses supports numériques (site internet mais également documents et e-mails)
+L’utilisateur·ice y retrouve donc désormais en premier lieu des **indicateurs de performance** <span class="fk-pill" aria-hidden="true">1</span> sur les performances de ses supports numériques (site internet mais également documents et e-mails)
 
 Puis vient le centre d’échange <span class="fk-pill alt"  aria-hidden="true">2</span> où les équipes d’intento fournissent des **rapports réguliers sur l’efficacité des actions menées.**
 
@@ -70,6 +70,6 @@ L’une des actions menées par intento pour transformer des visiteurs en leads 
 
 Selon le temps passé sur une page, la thématique du contenu consulté, le nombre d’interactions entre le visiteur et les supports du client, différents types de «widgets» sont affichés et **invitent le visiteur à interagir.** 
 
-Il fallait donc schématiser un parcours utilisateur complet pour définir le widget le plus pertinent **selon la maturité du visiteur.**
+Il fallait donc schématiser un parcours utilisateur·ice complet pour définir le widget le plus pertinent **selon la maturité du visiteur.**
 
-![Exemple de parcours utilisateur possible](user-journey.webp)
+![Exemple de parcours utilisateur·ice possible](user-journey.webp)

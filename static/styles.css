@@ -94,6 +94,11 @@ pre {
 a {
   text-decoration-color: var(--accent);
 }
+
+footer a, footer a:hover {
+  text-decoration-color: inherit
+}
+
 a, a:visited, a:hover, a:active {
   color: inherit;
 }
@@ -294,10 +299,13 @@ a[href*="#text-note"]:hover {
 aside ol a {
   text-decoration: none;
 }
-.fk-body a:hover,
-.fk-subfooter a:hover {
+.fk-body a:hover {
   text-decoration-color: var(--accent);
   background-size: 200%;
+}
+
+footer a:hover {
+text-decoration-style : double;
 }
 
 p:target {

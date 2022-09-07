@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/svg+xml" href="/icono/favicon.svg">
         <title>
-            {{ config.title }} | {% if page.title %}{{ page.title }}{% endif %}{% if section.title %}{{ section.title }}{% endif %}{% if term.name %} Archives "{{ term.name }}"{% endif %}{% if taxonomy.name and not term.name %} Liste des {{ taxonomy.name }}{% endif %}</title>     
+            {{ config.title }} | {% if page.title %}{{ page.title }}{% elif section.title %}{{ section.title }}{% elif term.name %} Archives "{{ term.name }}"{% elif taxonomy.name and not term.name %} Liste des {{ taxonomy.name }}{% endif %}</title>     
 		<link rel="stylesheet" type="text/css" href="/styles.css"/>
         <link rel="stylesheet" type="text/css" href="/icon.css"/>
+        <meta property="og:image" content="/icono/featured.png"/>
 	</head>
 	<body>
 	    <input id="fk-dark" class="fk-toggle fk-dark" type="checkbox"/>

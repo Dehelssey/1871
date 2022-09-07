@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'NaN Jaune';
-  src: url('/fonts/NaNJaune-MaxiExtraBold.woff2') format('woff2'),
-      url('/fonts/NaNJaune-MaxiExtraBold.woff') format('woff');
+  src:  local('NaN Jaune MaxiExtraBold'),
+  url('/fonts/NaNJaune-MaxiExtraBold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Plus Jakarta Sans';
-  src: url('/fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
-      url('/fonts/PlusJakartaSans-Regular.woff') format('woff');
+  src: local('Plus Jakarta Sans'),
+  url('/fonts/PlusJakartaSans-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,12 +18,13 @@
 
 @font-face {
   font-family: 'Plus Jakarta Sans';
-  src: url('/fonts/PlusJakartaSans-Italic.woff2') format('woff2'),
-      url('/fonts/PlusJakartaSans-Italic.woff') format('woff');
+  src:  local('Plus Jakarta Sans Italic'),
+  url('/fonts/PlusJakartaSans-Italic.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
+
 /* if you use light mode on your OS */
 @media screen and (prefers-color-scheme: light) {
 	:root {
